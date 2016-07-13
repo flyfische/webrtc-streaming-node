@@ -113,7 +113,7 @@ cflags = -fstack-protector --param=ssp-buffer-size=4  -pthread $
     -Wno-missing-field-initializers -Wno-strict-overflow -Wall -Wextra $
     -Wno-unused-parameter -pthread -fPIC -Wno-deprecated-declarations $
     -Wno-unused-variable -Wno-unknown-pragmas -Wno-unused-result $
-    -march=armv7-a -mtune=generic-armv7-a -mfpu=neon -mfloat-abi=hard $
+    -march=armv7-a -mtune=generic-armv7-a -mfpu=neon -mfloat-abi=softp $
     -mthumb -O2 -fno-ident -funwind-tables -O2 -fno-strict-aliasing $
     -fno-tree-vrp -fno-omit-frame-pointer
 cflags_c = -O2 -pipe -g -feliminate-unused-debug-types
