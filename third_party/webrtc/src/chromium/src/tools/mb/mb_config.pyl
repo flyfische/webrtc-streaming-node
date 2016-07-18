@@ -121,7 +121,7 @@
 
     'arm_float': {
       'gn_args': 'error',
-      'gyp_defines': 'target_arch=arm arm_float_abi=hard',
+      'gyp_defines': 'target_arch=arm arm_float_abi=softp',
     },
 
     'arm64': {
